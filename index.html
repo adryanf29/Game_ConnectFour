@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Connect Four</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link ke file CSS -->
+</head>
+<body>
+    <div id="intro">
+        <h2>Selamat Datang di Game Connect Four</h2>
+
+        <div class="rules-container">
+            <div class="rules">
+                <h3>Aturan Main Game</h3>
+                <p>Permainan ini dimainkan oleh 2 pemain, yaitu pemain ke 1 berwarna merah dan pemain ke 2 yaitu berwarna kuning. Setiap pemain bergantian memilih kolom untuk menjatuhkan token mereka. Pemain yang pertama menghubungkan 4 token dalam satu garis lurus (vertikal, horizontal, atau diagonal) akan menang.</p>
+            </div>
+
+            <div class="rules">
+                <h3>Cara Menggunakan Game</h3>
+                <p>Klik tombol "Mulai Permainan" untuk memulai. Gunakan mouse untuk memilih kolom tempat token akan dijatuhkan. Jika sudah ada pemenang atau papan penuh, klik tombol "Reset Permainan" untuk mengulang.</p>
+            </div>
+
+            <div class="rules">
+                <h3>Tujuan Dibuatnya Game</h3>
+                <p>Game ini dibuat untuk melatih strategi dan pemikiran logis pemain. Selain itu, permainan ini bertujuan untuk memberikan hiburan yang edukatif bagi semua kalangan.</p>
+            </div>
+
+            <a href="about.html" class="btn">Tentang Saya</a>
+
+        </div>
+        
+        <button id="startGame" class="btn">Mulai Permainan</button>
+    </div>
+
+    <div id="gameContainer" style="display: none;">
+        <p id="notif"></p>
+        <button id="resetGame" style="display: none;">Reset Permainan</button>
+        <canvas id="ruang" width="500" height="500"></canvas>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- File JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

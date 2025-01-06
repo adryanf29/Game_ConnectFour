@@ -1,0 +1,100 @@
+/* Gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Container */
+#intro {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#gameContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+
+.rules-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+}
+
+.rules {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-left: 5px solid #007bff;
+}
+
+
+/* Tombol */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 45px;
+    width: 180px;
+    height: 50px;
+
+      
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-left: 5px solid #007bff;
+}
+
+
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Kanvas */
+#ruang {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 2px solid #3498db;
+    margin-top: 35px;
+}
+
+/* Notifikasi */
+#notif {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.winner-red {
+    color: red;
+}
+
+.winner-yellow {
+    color: yellow;
+}
